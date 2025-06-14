@@ -1,0 +1,60 @@
+1. Explique, com suas palavras, o que é machine learning? 
+É uma área da inteligência artificial que permite que computadores aprendam padrões a 
+partir de dados para realizar previsões, classificações ou tomar decisões sem serem 
+programados diretamente para isso.
+
+2. Explique o conceito de conjunto de treinamento, conjunto de validação e conjunto de 
+teste em machine learning. 
+O conjunto de treinamento é utilizado para treinar o modelo, permitindo que ele aprenda os 
+padrões, as relações e os comportamentos dos dados. Já o conjunto de validação serve para 
+ajustar os hiperparâmetros do modelo e evitar problemas como overfitting, além de avaliar 
+seu desempenho durante o desenvolvimento. Por fim, o conjunto de teste é usado após o 
+treinamento e a validação, com o objetivo de avaliar a performance final do modelo em dados 
+que ele nunca viu, simulando como ele se comportará no mundo real.
+
+3. Explique como você lidaria com dados ausentes em um conjunto de dados de treinamento. 
+Para lidar com dados ausentes no conjunto de treinamento, é possível adotar diferentes 
+estratégias, dependendo do contexto e da quantidade de dados faltantes. Uma opção é 
+remover linhas ou colunas com muitos valores ausentes, desde que isso não comprometa a 
+análise. Outra abordagem é preencher esses valores utilizando média, mediana ou moda, no 
+caso de variáveis numéricas ou categóricas, utilizar valores preditivos baseados em outros 
+atributos, como regressão ou k-NN, ou ainda preencher com constantes específicas, como zero 
+ou “desconhecido”. Também é possível utilizar algoritmos que lidam naturalmente com dados 
+ausentes. Além disso, é relevante analisar as causas desses dados faltantes, pois eles podem 
+carregar informações importantes para o modelo.
+
+4. O que é uma matriz de confusão e como ela é usada para avaliar o desempenho de um modelo preditivo? 
+A matriz de confusão é uma tabela que permite visualizar o desempenho de um modelo de 
+classificação, comparando os valores previstos com os valores reais. Ela é composta por quatro 
+elementos: verdadeiros positivos, que representam os casos em que o modelo previu 
+corretamente a classe positiva; falsos positivos, quando o modelo previu positivo, mas o 
+resultado real era negativo; verdadeiros negativos, que indicam quando o modelo previu 
+corretamente a classe negativa; e falsos negativos, quando o modelo previu negativo, mas o 
+resultado real era positivo. A partir da matriz de confusão, é possível calcular métricas 
+importantes para avaliar o modelo, como acurácia, precisão, recall e F1-score. Essa matriz é 
+essencial para entender não apenas o desempenho geral do modelo, mas também identificar 
+os tipos de erros que ele comete.
+
+5. Em quais áreas (tais como construção civil, agricultura, saúde, manufatura, entre outras) 
+você acha mais interessante aplicar algoritmos de machine learning? 
+Tenho particular interesse na aplicação de algoritmos de Machine Learning nas áreas de 
+saúde e agricultura, devido à minha formação em nutrição, residência em saúde coletiva 
+e experiências profissionais na gestão de dados em saúde pública. Na área da saúde, 
+vejo grande potencial na utilização de modelos preditivos para análise epidemiológica, 
+diagnóstico precoce, monitoramento de doenças e na otimização de processos 
+hospitalares, como pude vivenciar em projetos que envolveram IoT, inteligência 
+artificial e visão computacional para prevenção de infecções hospitalares, 
+e projetos de pesquisas sobre a resposta do sistema de saúde na gestão de crises 
+sanitárias no Brasil.
+Na agricultura, considero extremamente relevante a aplicação de Machine Learning 
+para previsão de safras, detecção de pragas, monitoramento de condições climáticas e 
+uso eficiente de recursos, contribuindo para a sustentabilidade e produtividade do setor. 
+Essas duas áreas me interessam profundamente, pois unem minha bagagem anterior na 
+saúde e meu atual desenvolvimento na área de tecnologia, dados e inteligência artificial.
+
+
+
+
+
+
+
