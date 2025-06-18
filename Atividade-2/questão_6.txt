@@ -1,0 +1,34 @@
+6. Como identificar e tratar outliers em uma coluna numérica usando desvio padrão ou quartis?
+
+Para identificar e tratar outliers em uma coluna numérica, podemos utilizar dois métodos. 
+O primeiro é usando o desvio padrão. 
+Nesse método, um valor é considerado outlier se estiver a mais de 2 ou 3 desvios padrão da média.
+
+- Passo a passo para identificar:
+    1. Calcular a média da coluna;
+    2. Calcular o desvio padrão;
+    3. Identificar os valores onde a diferença absoluta entre o valor e a média 
+    seja maior que o limite escolhido (normalmente 2 ou 3) multiplicado pelo desvio padrão, 
+    ou seja: |valor − média| > (limite) * desvio padrão.
+
+- Tratamento:
+Os outliers podem ser removidos, substituídos pela média, pela mediana, por outro valor, 
+ou ainda corrigidos, caso sejam erros de digitação.
+
+O segundo método é utilizando os quartis, através do IQR (Intervalo Interquartil). 
+Nesse método, um valor é considerado outlier se estiver abaixo de Q1 − 1.5 * IQR 
+ou acima de Q3 + 1.5 * IQR.
+
+- Passo a passo para identificar:
+    1. Calcular o primeiro quartil (Q1, que representa 25% dos dados) e 
+    o terceiro quartil (Q3, que representa 75% dos dados);
+    2. Calcular o IQR, que é a diferença entre Q3 e Q1 (IQR = Q3 − Q1);
+    2. Definir os limites inferior e superior, onde:
+        - Limite inferior = Q1 − 1.5 * IQR
+        - Limite superior = Q3 + 1.5 * IQR
+Qualquer valor abaixo do limite inferior ou acima do limite superior é considerado outlier.
+
+- Tratamento:
+Os dados podem ser filtrados, mantendo apenas os valores que estejam dentro dos 
+limites definidos, ou seja, valores que satisfaçam a condição: limite inferior ≤ valor ≤ limite superior.
+
